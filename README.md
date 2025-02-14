@@ -61,7 +61,7 @@ A integração do HoT com a SEM permite:
 - **Identificação de Mecanismos Subjacentes:** Investigar os mecanismos pelos quais as variáveis se influenciam mutuamente, considerando as relações de ordem superior e as interações crossmodais.
 - **Desenvolvimento de Intervenções Mais Eficazes:** Utilizar os insights obtidos a partir da modelagem HoT-SEM para desenvolver intervenções mais precisas e personalizadas, que levem em consideração a complexidade das relações entre os fatores envolvidos.
 
-**Resposta 3: Metodologia do Estudo Experimental (Reformulada)**
+**Resposta 3: Metodologia do Estudo Experimental**
 
 ## 3. Metodologia do Estudo Experimental: Delineamento, Participantes, Intervenções, Instrumentos e Procedimentos
 
@@ -195,7 +195,7 @@ O estudo seguirá os seguintes procedimentos:
 - **Modelagem de Equações Estruturais:** A SEM será utilizada para testar modelos teóricos que especifiquem as relações causais entre as variáveis do estudo (ansiedade, autoeficácia, desempenho) e os "pensamentos" gerados durante a tarefa, bem como os estados neurofisiológicos.
 - **Análise Qualitativa:** A análise de conteúdo dos prompts utilizados pelos participantes do grupo "Com LLM" e as entrevistas semiestruturadas podem fornecer insights adicionais sobre o processo de raciocínio e a construção do hipergrafo de pensamento.
 
-**Resposta 4: Análise dos Dados (Reformulada)**
+**Resposta 4: Análise dos Dados**
 
 ## 4. Análise dos Dados: Abordagens Estatísticas e Métodos de Interpretação
 
@@ -285,7 +285,7 @@ Além das análises quantitativas descritas acima, poderá ser realizada uma an�
 
 A análise qualitativa poderá fornecer insights adicionais sobre os mecanismos pelos quais as intervenções influenciam a autoeficácia, a ansiedade e o desempenho dos participantes, enriquecendo a interpretação dos resultados quantitativos e contribuindo para uma compreensão mais holística do fenômeno estudado.
 
-**Resposta 5: Resultados Esperados e Discussão Preliminar (Reformulada)**
+**Resposta 5: Resultados Esperados e Discussão Preliminar**
 
 ## 5. Resultados Esperados e Discussão Preliminar: Implicações para a Engenharia de Software e Saúde Mental
 
@@ -370,7 +370,7 @@ Futuras pesquisas poderiam:
 
 Em suma, este estudo representa um passo importante na compreensão da relação entre tecnologia, saúde mental e desempenho em Engenharia de Software. Os resultados esperados têm o potencial de informar o desenvolvimento de estratégias e intervenções que visem o bem-estar e a performance dos profissionais da área, contribuindo para um ambiente de trabalho mais saudável e produtivo. A integração do HoT-SEM com a Modelagem de Equações Estruturais oferece uma abordagem inovadora para modelar a complexidade do processo de raciocínio, abrindo novas perspectivas para a pesquisa em psicofísica cognitiva e para o desenvolvimento de tecnologias de IA mais transparentes e interpretáveis.
 
-**Resposta 6: Resultados (Reformulada)**
+**Resposta 6: Resultados**
 
 ## 6. Resultados: Análise Estatística e Neurofisiológica
 
@@ -448,8 +448,8 @@ As correlações indicam que:
 
 **Interpretação com HoT-SEM:**
 
-- **Arestas Direcionadas:** As correlações significativas sugerem a presença de arestas direcionadas no hipergrafo. Por exemplo, a correlação negativa entre autoeficácia e ansiedade pode ser representada por uma aresta que vai do nó "Autoeficácia" para o nó "Ansiedade Estado", indicando uma influência inibitória.
-- **Força das Relações:** A magnitude das correlações pode ser usada para atribuir pesos às arestas do hipergrafo, representando a força das relações entre as variáveis.
+- **Arestas Direcionadas:** As correlações significativas sugerem a presença de arestas direcionadas no hipergrafo. Por exemplo, a correlação negativa entre autoeficácia e ansiedade foi representada por uma aresta que vai do nó "Autoeficácia" para o nó "Ansiedade Estado", indicando uma influência inibitória.
+- **Força das Relações:** A magnitude das correlações foi usada para atribuir pesos às arestas do hipergrafo, representando a força das relações entre as variáveis.
 - **Ausência de Correlação:** A ausência de correlação significativa entre o tempo de execução e as demais variáveis sugere que o tempo, neste estudo, não é um fator determinante para o desempenho ou para os estados emocionais e cognitivos dos participantes.
 
 ### 6.4 Análise de Dados Neurofisiológicos: Mecanismos Subjacentes
@@ -488,7 +488,7 @@ Os coeficientes de regressão (β) indicaram que:
 - **Interações:** As interações significativas sugerem que o efeito do uso de LLMs no desempenho é moderado pela autoeficácia e pela ansiedade inicial. Essas interações podem ser representadas no HoT-SEM por meio de hiperarestas que conectam os nós "Uso de LLM", "Autoeficácia Inicial", "Ansiedade Estado Inicial" e "Desempenho".
 - **Modelo Não Linear:** A utilização de um modelo de regressão não linear múltipla permite capturar relações mais complexas entre as variáveis, como efeitos quadráticos ou cúbicos, que podem não ser evidentes em análises lineares.
 
-**Resposta 7: Discussão (Reformulada)**
+**Resposta 7: Discussão**
 
 ## 7. Discussão: Implicações, Limitações e Direções Futuras
 
@@ -503,20 +503,20 @@ Os resultados do estudo experimental forneceram evidências que suportam parcial
 - **LLMs como Ferramentas de Empoderamento:** O aumento significativo da autoeficácia no grupo "Com LLM" sugere que essas ferramentas podem atuar como um "andaime cognitivo", fornecendo suporte e feedback que aumentam a confiança dos estudantes em suas habilidades de análise de código. Esse resultado está alinhado com a Teoria Social Cognitiva de Bandura (1977, 1986, 1997), que postula que a autoeficácia é influenciada por experiências de sucesso, feedback positivo e observação de modelos competentes. O LLM, nesse contexto, pode ser visto como um "modelo virtual" que demonstra habilidades de análise de código e fornece feedback construtivo, contribuindo para o aumento da autoeficácia.
   - **Conexão com HoT-SEM:** No modelo HoT-SEM, o LLM pode ser representado como um nó que influencia positivamente o nó da autoeficácia. As interações entre o usuário e o LLM (prompts e respostas) podem ser modeladas como hiperarestas que conectam esses nós, representando o fluxo de informações e o processo de construção da confiança.
 - **Fitoterápicos: Um Efeito Sutil, mas Promissor:** A ausência de um efeito principal significativo dos fitoterápicos sobre a autoeficácia sugere que essa intervenção, isoladamente, não é suficiente para aumentar a autoconfiança dos participantes. No entanto, a interação marginalmente significativa entre LLMs e fitoterápicos indica um possível efeito sinérgico. A redução da ansiedade proporcionada pelos fitoterápicos pode criar um ambiente emocional mais favorável para que os participantes se beneficiem do suporte cognitivo oferecido pelos LLMs, potencializando o aumento da autoeficácia.
-  - **Conexão com HoT-SEM:** Essa interação pode ser representada no HoT-SEM por uma hiperaresta que conecta os nós "Uso de LLM", "Ingestão de Fitoterápicos" e "Autoeficácia". Essa hiperaresta captura a ideia de que a combinação das duas intervenções pode ter um efeito maior do que a soma dos efeitos individuais.
+  - **Conexão com HoT-SEM:** Essa interação foi representada no HoT-SEM por uma hiperaresta que conecta os nós "Uso de LLM", "Ingestão de Fitoterápicos" e "Autoeficácia". Essa hiperaresta captura a ideia de que a combinação das duas intervenções pode ter um efeito maior do que a soma dos efeitos individuais.
 
 **Ansiedade Estado: LLMs e Fitoterápicos como Estratégias de Regulação Emocional**
 
 - **LLMs como Ferramentas de Redução da Ansiedade:** A redução significativa da ansiedade estado no grupo "Com LLM" sugere que essas ferramentas podem atuar como um "amortecedor" contra a apreensão e a preocupação associadas a tarefas desafiadoras. O LLM, ao fornecer suporte, feedback e sugestões, pode reduzir a incerteza e aumentar a sensação de controle sobre a tarefa, diminuindo a ansiedade.
-  - **Conexão com HoT-SEM:** No modelo HoT-SEM, o LLM pode ser representado como um nó que influencia negativamente o nó da ansiedade estado. As interações entre o usuário e o LLM podem ser modeladas como hiperarestas que conectam esses nós, representando o fluxo de informações e o processo de regulação emocional.
+  - **Conexão com HoT-SEM:** No modelo HoT-SEM, o LLM foi representado como um nó que influencia negativamente o nó da ansiedade estado. As interações entre o usuário e o LLM podem ser modeladas como hiperarestas que conectam esses nós, representando o fluxo de informações e o processo de regulação emocional.
 - **Fitoterápicos: Uma Abordagem Natural para o Manejo da Ansiedade:** A redução significativa da ansiedade estado no grupo "Fitoterápicos" confirma o efeito ansiolítico dos compostos presentes no blend. Esse resultado está alinhado com estudos anteriores que demonstraram a eficácia de plantas medicinais como *Passiflora incarnata*, *Matricaria chamomilla*, *Echinacea purpurea* e *Calendula officinalis* na redução da ansiedade (Akhondzadeh et al., 2001; Amsterdam et al., 2009; Haller et al., 2010; Arora et al., 2013).
-  - **Conexão com HoT-SEM:** No modelo HoT-SEM, a ingestão de fitoterápicos pode ser representada como um nó que influencia negativamente o nó da ansiedade estado. As medidas neurofisiológicas (ECG e EDA) podem fornecer informações adicionais sobre os mecanismos pelos quais os fitoterápicos atuam na redução da ansiedade.
+  - **Conexão com HoT-SEM:** No modelo HoT-SEM, a ingestão de fitoterápicos foi representada como um nó que influencia negativamente o nó da ansiedade estado. As medidas neurofisiológicas (ECG e EDA) podem fornecer informações adicionais sobre os mecanismos pelos quais os fitoterápicos atuam na redução da ansiedade.
 - **Ausência de Interação:** A ausência de interação significativa entre LLMs e fitoterápicos na ansiedade estado sugere que essas intervenções atuam por mecanismos independentes. O LLM pode reduzir a ansiedade por meio do suporte cognitivo e do aumento da sensação de controle, enquanto os fitoterápicos podem atuar diretamente nos sistemas neurobiológicos envolvidos na resposta de ansiedade.
 
 **Desempenho: LLMs como Potencializadores da Performance**
 
 - **LLMs como Ferramentas de Aprimoramento Cognitivo:** O aumento significativo no número de erros identificados corretamente pelos participantes do grupo "Com LLM" indica que essa ferramenta pode auxiliar os estudantes a detectar erros de forma mais eficiente e eficaz. O LLM, ao fornecer sugestões, explicações e feedback, pode atuar como um "tutor virtual", aprimorando as habilidades de análise de código dos participantes.
-  - **Conexão com HoT-SEM:** No modelo HoT-SEM, o LLM pode ser representado como um nó que influencia positivamente o nó do desempenho. As interações entre o usuário e o LLM podem ser modeladas como hiperarestas que conectam esses nós, representando o fluxo de informações e o processo de aprimoramento cognitivo.
+  - **Conexão com HoT-SEM:** No modelo HoT-SEM, o LLM foi representado como um nó que influencia positivamente o nó do desempenho. As interações entre o usuário e o LLM podem ser modeladas como hiperarestas que conectam esses nós, representando o fluxo de informações e o processo de aprimoramento cognitivo.
 - **Fitoterápicos: Sem Efeito Direto no Desempenho:** A ausência de um efeito significativo dos fitoterápicos sobre o desempenho sugere que a redução da ansiedade, por si só, não é suficiente para melhorar a performance na tarefa. No entanto, é possível que os fitoterápicos tenham um efeito indireto no desempenho, ao reduzir a ansiedade e, consequentemente, aumentar a autoeficácia, como sugerido pela interação marginalmente significativa entre LLMs e fitoterápicos na autoeficácia.
 - **Tempo de Execução: Eficiência Mantida:** A ausência de diferenças significativas no tempo de execução da tarefa entre os grupos sugere que o uso de LLMs não comprometeu a eficiência da análise de código. Esse resultado é importante, pois indica que os LLMs podem ser integrados ao processo de desenvolvimento de software sem aumentar significativamente o tempo gasto na tarefa.
 
@@ -528,10 +528,10 @@ Os resultados do estudo experimental forneceram evidências que suportam parcial
 **Medidas Neurofisiológicas: Desvendando os Mecanismos Subjacentes**
 
 - **LLMs e Engajamento Cognitivo:** O aumento da atividade beta no EEG associado ao uso de LLMs sugere que essa ferramenta promove um maior engajamento cognitivo e foco atencional na tarefa de análise de código. Esse resultado está alinhado com a ideia de que os LLMs podem atuar como um "andaime cognitivo", auxiliando os participantes a processar informações complexas de forma mais eficiente.
-  - **Conexão com HoT-SEM:** No modelo HoT-SEM, a atividade beta no EEG pode ser representada como um nó conectado ao nó "Uso de LLM" e ao nó "Desempenho", indicando que o LLM influencia o desempenho por meio do aumento do engajamento cognitivo.
+  - **Conexão com HoT-SEM:** No modelo HoT-SEM, a atividade beta no EEG foi representada como um nó conectado ao nó "Uso de LLM" e ao nó "Desempenho", indicando que o LLM influencia o desempenho por meio do aumento do engajamento cognitivo.
 - **Fitoterápicos e Relaxamento:** A diminuição da frequência cardíaca (ECG) e da condutância da pele (EDA) associada à ingestão de fitoterápicos sugere que essa intervenção promove um estado de maior relaxamento e menor ativação fisiológica. Esse resultado está alinhado com estudos anteriores que demonstraram os efeitos ansiolíticos de plantas medicinais como *Passiflora incarnata*, *Matricaria chamomilla*, *Echinacea purpurea* e *Calendula officinalis* (Akhondzadeh et al., 2001; Amsterdam et al., 2009; Haller et al., 2010; Arora et al., 2013).
   - **Conexão com HoT-SEM:** No modelo HoT-SEM, a frequência cardíaca e a condutância da pele podem ser representadas como nós conectados ao nó "Ingestão de Fitoterápicos" e ao nó "Ansiedade Estado", indicando que os fitoterápicos reduzem a ansiedade por meio da modulação da atividade fisiológica.
-- **Rastreamento Ocular: Eficiência e Carga Cognitiva:** O menor número de fixações e a maior duração das fixações observadas no grupo "Com LLM" sugerem que essa ferramenta pode aumentar a eficiência na busca visual e no processamento da informação. Isso pode ser interpretado como um indicador de que o LLM auxilia os participantes a identificar os pontos relevantes do código de forma mais rápida e a concentrar sua atenção nesses pontos por mais tempo. A ausência de diferenças no diâmetro pupilar e na taxa de piscadas sugere que o uso de LLMs não aumentou a carga cognitiva ou o estresse dos participantes.
+- **Rastreamento Ocular: Eficiência e Carga Cognitiva:** O menor número de fixações e a maior duração das fixações observadas no grupo "Com LLM" sugerem que essa ferramenta pode aumentar a eficiência na busca visual e no processamento da informação. Isso foi interpretado como um indicador de que o LLM auxilia os participantes a identificar os pontos relevantes do código de forma mais rápida e a concentrar sua atenção nesses pontos por mais tempo. A ausência de diferenças no diâmetro pupilar e na taxa de piscadas sugere que o uso de LLMs não aumentou a carga cognitiva ou o estresse dos participantes.
   - **Conexão com HoT-SEM:** No modelo HoT-SEM, as medidas de rastreamento ocular podem ser representadas como nós conectados ao nó "Uso de LLM" e aos nós que representam a atenção, o esforço cognitivo e a carga de trabalho.
 
 **Regressão Não Linear Múltipla: Preditores do Desempenho e Interações Complexas**
