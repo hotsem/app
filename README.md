@@ -690,26 +690,26 @@ Em suma, este estudo representa um passo importante na compreensão da relação
 
 **Referências**
 
-*   Akhondzadeh, S., Naghavi, H. R., Vazirian, M., Shayeganpour, A., Rashidi, H., & Khani, M. (2001). Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam. *Journal of Clinical Pharmacy and Therapeutics*, *26*(5), 363–367.
-*   Allamanis, M., Brockschmidt, M., & Khademi, M. (2018). Learning to represent programs with graphs. *Proceedings of the International Conference on Learning Representations (ICLR)*.
-*   Amsterdam, J. D., Li, Y., Soeller, I., Rockwell, K., Mao, J. J., & Shults, J. (2009). A randomized, double-blind, placebo-controlled trial of oral Matricaria recutita (chamomile) extract therapy for generalized anxiety disorder. *Journal of Clinical Psychopharmacology*, *29*(4), 378–382.
-*   Arora, R. B., Basu, N., Kapoor, V., & Jain, S. R. (2013). Anti-inflammatory studies on Calendula officinalis Linn. and its active principles. *International Journal of Phytomedicine*, *5*(2), 201.
-*   Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, *84*(2), 191.
-*   Bandura, A. (1986). *Social foundations of thought and action: A social cognitive theory*. Englewood Cliffs, NJ: Prentice-Hall.
-*   Bandura, A. (1997). *Self-efficacy: The exercise of control*. New York: W.H. Freeman.
-*   Bar-Haim, Y., Lamy, D., Pergamin, L., Bakermans-Kranenburg, M. J., & van IJzendoorn, M. H. (2007). Threat-related attentional bias in anxious and nonanxious individuals: a meta-analytic study. *Psychological Bulletin*, *133*(1), 1.
-*   Barker, L. J., Garvin, M. C., & Treude, C. (2017). The prevalence and impact of anxiety in software engineering: A systematic literature review. *Journal of Systems and Software*, *131*, 243–255.
-*   Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Piao, G., Nyczyk, P., … & Hoefler, T. (2023). Graph of thoughts: Solving elaborate problems with large language models. *arXiv preprint arXiv:2308.09687*.
-*   Christiano, P. F., Leike, J., Brown, T. B., Martic, M., Legg, S., & Amodei, D. (2017). Deep reinforcement learning from human preferences. *Advances in neural information processing systems*, *30*.
-*   Critchley, H. D. (2002). Electrodermal responses: what happens in the brain. *The Neuroscientist*, *8*(2), 132–142.
-*   Haller, J., Christensen, L., Bülow, J., & Krämer, R. (2010). Anxiolytic-like effects of Echinacea
-    purpurea extracts in laboratory animals. *Phytomedicine*, *17*(8-9), 683–688.
-*   Huang, L., Zhang, R., Chen, K., & Zhao, H. (2019). Cosmos qa: Machine reading comprehension with contextual commonsense reasoning. *arXiv preprint arXiv:1909.05743*.
-*   Kline, R. B. (2015). *Principles and practice of structural equation modeling*. Guilford publications.
-*   Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., … & Lowe, R. (2022). Training language models to follow instructions with human feedback. *Advances in neural information processing systems*, *35*.
-*   Putman, P., Van Peer, J. M., Maimari, I., & Van der Werff, S. (2010). EEG theta/beta ratio in relation to fear-conditioned memory consolidation and retrieval in humans. *Neurobiology of Learning and Memory*, *94*(1), 117–123.
-*   Ramalingam, V., & Wiedenbeck, S. (1998). Development and validation of a computer programming self-efficacy scale. *Journal of Educational Computing Research*, *20*(1), 1–20.
-*   Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., … & Scialom, T. (2023). Llama 2: Open foundation and fine-tuned chat models. *arXiv preprint arXiv:2307.09288*.
-*   Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., … & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. *Advances in Neural Information Processing Systems*, *35*.
-*   Wilson, B. C., & Shrock, S. (2001). Contributing to success in an introductory computer science course: a study of twelve factors. *ACM SIGCSE Bulletin*, *33*(1), 18–22.
-*   Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K. R. (2023). Tree of thoughts: Deliberate problem solving with large language models. *arXiv preprint arXiv:2305.10601*.
+Akhondzadeh, S., Naghavi, H. R., Vazirian, M., Shayeganpour, A., Rashidi, H., & Khani, M. (2001). Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam. *Journal of Clinical Pharmacy and Therapeutics*, *26*(5), 363–367.
+Allamanis, M., Brockschmidt, M., & Khademi, M. (2018). Learning to represent programs with graphs. *Proceedings of the International Conference on Learning Representations (ICLR)*.
+Amsterdam, J. D., Li, Y., Soeller, I., Rockwell, K., Mao, J. J., & Shults, J. (2009). A randomized, double-blind, placebo-controlled trial of oral Matricaria recutita (chamomile) extract therapy for generalized anxiety disorder. *Journal of Clinical Psychopharmacology*, *29*(4), 378–382.
+Arora, R. B., Basu, N., Kapoor, V., & Jain, S. R. (2013). Anti-inflammatory studies on Calendula officinalis Linn. and its active principles. *International Journal of Phytomedicine*, *5*(2), 201.
+Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, *84*(2), 191.
+Bandura, A. (1986). *Social foundations of thought and action: A social cognitive theory*. Englewood Cliffs, NJ: Prentice-Hall.
+Bandura, A. (1997). *Self-efficacy: The exercise of control*. New York: W.H. Freeman.
+Bar-Haim, Y., Lamy, D., Pergamin, L., Bakermans-Kranenburg, M. J., & van IJzendoorn, M. H. (2007). Threat-related attentional bias in anxious and nonanxious individuals: a meta-analytic study. *Psychological Bulletin*, *133*(1), 1.
+Barker, L. J., Garvin, M. C., & Treude, C. (2017). The prevalence and impact of anxiety in software engineering: A systematic literature review. *Journal of Systems and Software*, *131*, 243–255.
+Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Piao, G., Nyczyk, P., … & Hoefler, T. (2023). Graph of thoughts: Solving elaborate problems with large language models. *arXiv preprint arXiv:2308.09687*.
+Christiano, P. F., Leike, J., Brown, T. B., Martic, M., Legg, S., & Amodei, D. (2017). Deep reinforcement learning from human preferences. *Advances in neural information processing systems*, *30*.
+Critchley, H. D. (2002). Electrodermal responses: what happens in the brain. *The Neuroscientist*, *8*(2), 132–142.
+Haller, J., Christensen, L., Bülow, J., & Krämer, R. (2010). Anxiolytic-like effects of Echinacea
+  purpurea extracts in laboratory animals. *Phytomedicine*, *17*(8-9), 683–688.
+Huang, L., Zhang, R., Chen, K., & Zhao, H. (2019). Cosmos qa: Machine reading comprehension with contextual commonsense reasoning. *arXiv preprint arXiv:1909.05743*.
+Kline, R. B. (2015). *Principles and practice of structural equation modeling*. Guilford publications.
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., … & Lowe, R. (2022). Training language models to follow instructions with human feedback. *Advances in neural information processing systems*, *35*.
+Putman, P., Van Peer, J. M., Maimari, I., & Van der Werff, S. (2010). EEG theta/beta ratio in relation to fear-conditioned memory consolidation and retrieval in humans. *Neurobiology of Learning and Memory*, *94*(1), 117–123.
+Ramalingam, V., & Wiedenbeck, S. (1998). Development and validation of a computer programming self-efficacy scale. *Journal of Educational Computing Research*, *20*(1), 1–20.
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., … & Scialom, T. (2023). Llama 2: Open foundation and fine-tuned chat models. *arXiv preprint arXiv:2307.09288*.
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., … & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. *Advances in Neural Information Processing Systems*, *35*.
+Wilson, B. C., & Shrock, S. (2001). Contributing to success in an introductory computer science course: a study of twelve factors. *ACM SIGCSE Bulletin*, *33*(1), 18–22.
+Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K. R. (2023). Tree of thoughts: Deliberate problem solving with large language models. *arXiv preprint arXiv:2305.10601*.
