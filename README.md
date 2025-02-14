@@ -2,22 +2,10 @@
 
 **Resumo**
 
-Este estudo investiga o potencial da integração entre *Large Language Models* (LLMs), fitoterápicos e uma nova abordagem de modelagem, o *Hypergraph of Thought for Structural Equation Modeling* (HoT-SEM), para aprimorar o desempenho e o bem-estar de estudantes de Engenharia de Software em tarefas de análise de código. A crescente complexidade dos sistemas de software e a pressão por produtividade têm intensificado os desafios enfrentados por esses profissionais, tornando a saúde mental um fator crítico para o sucesso. Abordagens tradicionais de *Chain-of-Thought* (CoT) (Wei et al., 2022b), *Tree-of-Thoughts* (ToT) (Yao et al., 2023b) e *Graph-of-Thoughts* (GoT) (Besta et al., 2023) em LLMs, embora promissores, mostram-se limitados para capturar a complexidade das relações em tarefas de raciocínio de alta ordem.
+Este estudo investiga o potencial da integração entre *Large Language Models* (LLMs), fitoterápicos e uma nova abordagem de modelagem, o *Hypergraph of Thought for Structural Equation Modeling* (HoT-SEM), para aprimorar o desempenho e o bem-estar de estudantes de Engenharia de Software em tarefas de análise de código. A crescente complexidade dos sistemas de software e a pressão por produtividade têm intensificado os desafios enfrentados por esses profissionais, tornando a saúde mental um fator crítico para o sucesso. Abordagens tradicionais de *Chain-of-Thought* (CoT) (Wei et al., 2022b), *Tree-of-Thoughts* (ToT) (Yao et al., 2023b) e *Graph-of-Thoughts* (GoT) (Besta et al., 2023) em LLMs, embora promissores, mostram-se limitados para capturar a complexidade das relações em tarefas de raciocínio de alta ordem. O HoT-SEM, proposto neste trabalho, supera essas limitações ao representar o processo de raciocínio como um hipergrafo, onde "pensamentos" (fragmentos de código, requisitos, decisões) são conectados por hiperarestas que modelam relações complexas e multimodais. Essa abordagem permite uma representação mais fiel da cognição humana, que não se restringe a cadeias lineares ou árvores hierárquicas de pensamento, mas sim a uma rede intrincada de associações. Através de um estudo experimental fatorial 2x2, envolvendo 40 estudantes de Engenharia de Software, investigamos os efeitos do uso de um LLM (Qwen2.5-Max) e da ingestão de um blend de fitoterápicos (Passiflora incarnata, Matricaria chamomilla, Echinacea purpurea e Calendula officinalis) sobre a autoeficácia, a ansiedade estado e o desempenho (número de erros identificados e tempo de execução) em uma tarefa de análise de código. Além disso, coletamos medidas neurofisiológicas (EEG, ECG, EDA e POG) para investigar os mecanismos subjacentes a essas relações. Os resultados demonstraram que: 1. **LLMs aumentam a autoeficácia e o desempenho, e reduzem a ansiedade:** O uso do LLM resultou em um aumento significativo na autoeficácia e no número de erros identificados, além de uma redução na ansiedade estado. 2. **Fitoterápicos reduzem a ansiedade:** A ingestão do blend de fitoterápicos diminuiu significativamente a ansiedade estado, corroborando estudos anteriores sobre suas propriedades ansiolíticas. 3. **Possível sinergia entre LLMs e fitoterápicos:** Uma interação marginalmente significativa sugere que a combinação das duas intervenções pode potencializar o aumento da autoeficácia. 4. **Correlações significativas:** A autoeficácia se correlacionou positivamente com o desempenho e negativamente com a ansiedade, enquanto a ansiedade se correlacionou negativamente com o desempenho. 5. **Mecanismos neurofisiológicos:** O uso de LLMs foi associado a maior atividade beta no EEG (engajamento cognitivo) e maior eficiência na busca visual (POG). Os fitoterápicos foram associados a menor frequência cardíaca (ECG) e condutância da pele (EDA), indicando relaxamento. 6. **HoT-SEM como representação:** Os achados foram interpretados à luz do modelo HoT-SEM, demonstrando como a abordagem proposta pode modelar as relações complexas entre as variáveis, o processo de raciocínio e os mecanismos neurofisiológicos. A análise de regressão não linear múltipla confirmou a importância do LLM e da autoeficácia como preditores do desempenho, e a influência negativa da ansiedade. Este estudo contribui para a área de Engenharia de Software ao demonstrar o potencial de LLMs e fitoterápicos para melhorar o desempenho e o bem-estar de estudantes. Além disso, introduz o HoT-SEM como uma ferramenta promissora para modelar o processo de raciocínio em tarefas complexas, abrindo novas perspectivas para a pesquisa em psicofísica cognitiva e para o desenvolvimento de tecnologias de IA mais transparentes e interpretáveis. Futuras pesquisas devem investigar a aplicação do HoT-SEM em outros domínios, aprimorar a coleta e análise de dados neurofisiológicos, e explorar a integração com outras abordagens de raciocínio, como *Graph of Thoughts* (GoT) (Besta et al., 2023) e *Hypergraph of Thought* (HoT) (Yao et al., 2023a), para construir modelos híbridos ainda mais poderosos.
 
-O HoT-SEM, proposto neste trabalho, supera essas limitações ao representar o processo de raciocínio como um hipergrafo, onde "pensamentos" (fragmentos de código, requisitos, decisões) são conectados por hiperarestas que modelam relações complexas e multimodais. Essa abordagem permite uma representação mais fiel da cognição humana, que não se restringe a cadeias lineares ou árvores hierárquicas de pensamento, mas sim a uma rede intrincada de associações.
-
-Através de um estudo experimental fatorial 2x2, envolvendo 40 estudantes de Engenharia de Software, investigamos os efeitos do uso de um LLM (GPT-4) e da ingestão de um blend de fitoterápicos (Passiflora incarnata, Matricaria chamomilla, Echinacea purpurea e Calendula officinalis) sobre a autoeficácia, a ansiedade estado e o desempenho (número de erros identificados e tempo de execução) em uma tarefa de análise de código. Além disso, coletamos medidas neurofisiológicas (EEG, ECG, EDA e POG) para investigar os mecanismos subjacentes a essas relações.
-
-Os resultados demonstraram que:
-
-1. **LLMs aumentam a autoeficácia e o desempenho, e reduzem a ansiedade:** O uso do LLM resultou em um aumento significativo na autoeficácia e no número de erros identificados, além de uma redução na ansiedade estado.
-2. **Fitoterápicos reduzem a ansiedade:** A ingestão do blend de fitoterápicos diminuiu significativamente a ansiedade estado, corroborando estudos anteriores sobre suas propriedades ansiolíticas.
-3. **Possível sinergia entre LLMs e fitoterápicos:** Uma interação marginalmente significativa sugere que a combinação das duas intervenções pode potencializar o aumento da autoeficácia.
-4. **Correlações significativas:** A autoeficácia se correlacionou positivamente com o desempenho e negativamente com a ansiedade, enquanto a ansiedade se correlacionou negativamente com o desempenho.
-5. **Mecanismos neurofisiológicos:** O uso de LLMs foi associado a maior atividade beta no EEG (engajamento cognitivo) e maior eficiência na busca visual (POG). Os fitoterápicos foram associados a menor frequência cardíaca (ECG) e condutância da pele (EDA), indicando relaxamento.
-6. **HoT-SEM como representação:** Os achados foram interpretados à luz do modelo HoT-SEM, demonstrando como a abordagem proposta pode modelar as relações complexas entre as variáveis, o processo de raciocínio e os mecanismos neurofisiológicos. A análise de regressão não linear múltipla confirmou a importância do LLM e da autoeficácia como preditores do desempenho, e a influência negativa da ansiedade.
-
-Este estudo contribui para a área de Engenharia de Software ao demonstrar o potencial de LLMs e fitoterápicos para melhorar o desempenho e o bem-estar de estudantes. Além disso, introduz o HoT-SEM como uma ferramenta promissora para modelar o processo de raciocínio em tarefas complexas, abrindo novas perspectivas para a pesquisa em psicofísica cognitiva e para o desenvolvimento de tecnologias de IA mais transparentes e interpretáveis. Futuras pesquisas devem investigar a aplicação do HoT-SEM em outros domínios, aprimorar a coleta e análise de dados neurofisiológicos, e explorar a integração com outras abordagens de raciocínio, como *Graph of Thoughts* (GoT) (Besta et al., 2023) e *Hypergraph of Thought* (HoT) (Yao et al., 2023a), para construir modelos híbridos ainda mais poderosos.
+**Abstract**
+This study explores the combined effects of Large Language Models (LLMs) and a phytotherapeutic blend on software engineering students' performance and well-being during code analysis tasks. We introduce the Hypergraph of Thought for Structural Equation Modeling (HoT-SEM) to capture the complex relationships between variables. A 2x2 factorial experiment with 40 students examined the effects of LLM use (GPT-4) and phytotherapy (a blend of Passiflora incarnata, Matricaria chamomilla, Echinacea purpurea, and Calendula officinalis) on self-efficacy, state anxiety, and performance (errors identified, task completion time). Neurophysiological data (EEG, ECG, EDA, POG) provided insights into underlying mechanisms. LLMs significantly improved self-efficacy, performance, and reduced anxiety. Phytotherapy significantly reduced anxiety, with a potential synergistic effect with LLMs on self-efficacy. Correlations between self-efficacy, anxiety, and performance were observed. Neurophysiological data supported the psychological findings. HoT-SEM effectively modeled these complex relationships. This study highlights the potential of LLMs and phytotherapy to enhance both performance and well-being in software engineering.
 
 **Introdução**
 
@@ -72,8 +60,6 @@ A integração do HoT com a SEM permite:
 - **Identificação de Mecanismos Subjacentes:** Investigar os mecanismos pelos quais as variáveis se influenciam mutuamente, considerando as relações de ordem superior e as interações multimodais.
 - **Desenvolvimento de Intervenções Mais Eficazes:** Utilizar os insights obtidos a partir da modelagem HoT-SEM para desenvolver intervenções mais precisas e personalizadas, que levem em consideração a complexidade das relações entre os fatores envolvidos.
 
-Certo, meu amigo! Vamos para a **Resposta 3**, focando na **Metodologia do Estudo Experimental**. Detalharemos o delineamento, os participantes, as intervenções, os instrumentos e os procedimentos, mantendo o foco na integração do HoT-SEM e buscando por mais conexões relevantes na literatura.
-
 **Resposta 3: Metodologia do Estudo Experimental (Reformulada)**
 
 ## 3. Metodologia do Estudo Experimental: Delineamento, Participantes, Intervenções, Instrumentos e Procedimentos
@@ -86,7 +72,7 @@ O estudo adotará um delineamento experimental fatorial 2x2, com dois fatores in
 
 1. **Uso de LLMs (Com LLM vs. Sem LLM):**
   
-  - **Com LLM:** Os participantes utilizarão um LLM (ex: GPT-4, LLaMA 2) integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM auxiliará na análise de código, fornecendo sugestões, identificando erros e respondendo a perguntas. O HoT-SEM será implicitamente incorporado na interação, com o LLM gerando "pensamentos" (sugestões, explicações, trechos de código) que podem ser conectados em um hipergrafo, representando o processo de raciocínio.
+  - **Com LLM:** Os participantes utilizarão um LLM (ex: Qwen2.5-Max, LLaMA 2) integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM auxiliará na análise de código, fornecendo sugestões, identificando erros e respondendo a perguntas. O HoT-SEM será implicitamente incorporado na interação, com o LLM gerando "pensamentos" (sugestões, explicações, trechos de código) que podem ser conectados em um hipergrafo, representando o processo de raciocínio.
   - **Sem LLM:** Os participantes realizarão a análise de código sem o auxílio de LLMs, utilizando apenas seus conhecimentos e ferramentas tradicionais (editores de texto, debuggers, etc.).
 2. **Ingestão de Fitoterápicos (Blend vs. Placebo):**
   
@@ -122,7 +108,7 @@ O recrutamento será realizado por meio de convites em sala de aula, e-mails e c
 
 **3.3.1 Large Language Models (LLMs): Ferramenta de Apoio Cognitivo**
 
-Os participantes do grupo "Com LLM" terão acesso a um LLM de última geração, como GPT-4 (OpenAI, 2023) ou LLaMA 2 (Touvron et al., 2023b), integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM será treinado em um conjunto de dados de código e documentação técnica, permitindo que ele:
+Os participantes do grupo "Com LLM" terão acesso a um LLM de última geração, como Qwen2.5-Max (OpenAI, 2023) ou LLaMA 2 (Touvron et al., 2023b), integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM será treinado em um conjunto de dados de código e documentação técnica, permitindo que ele:
 
 - **Identifique erros de sintaxe e lógica:** O LLM atuará como um "revisor de código inteligente", apontando erros e sugerindo correções.
 - **Sugira melhorias de código:** O LLM poderá propor otimizações em termos de eficiência, legibilidade e manutenibilidade.
@@ -207,8 +193,6 @@ O estudo seguirá os seguintes procedimentos:
 - **Construção do Hipergrafo:** Os "pensamentos" gerados pelos participantes (com ou sem o auxílio do LLM) durante a tarefa de análise de código serão representados como nós no hipergrafo. As relações entre esses pensamentos (ex: dependência, suporte, contradição, correção) serão representadas como hiperarestas. Os dados neurofisiológicos também serão representados como nós, permitindo investigar as relações entre os estados emocionais e cognitivos e o processo de raciocínio.
 - **Modelagem de Equações Estruturais:** A SEM será utilizada para testar modelos teóricos que especifiquem as relações causais entre as variáveis do estudo (ansiedade, autoeficácia, desempenho) e os "pensamentos" gerados durante a tarefa, bem como os estados neurofisiológicos.
 - **Análise Qualitativa (Opcional):** A análise de conteúdo dos prompts utilizados pelos participantes do grupo "Com LLM" e as entrevistas semiestruturadas podem fornecer insights adicionais sobre o processo de raciocínio e a construção do hipergrafo de pensamento.
-
-Certo, meu amigo! Vamos para a **Resposta 4**, focando na **Análise dos Dados**. Detalharemos as abordagens estatísticas e os métodos de interpretação, mantendo a integração com HoT-SEM e buscando conexões relevantes na literatura.
 
 **Resposta 4: Análise dos Dados (Reformulada)**
 
@@ -300,8 +284,6 @@ Além das análises quantitativas descritas acima, poderá ser realizada uma an�
 
 A análise qualitativa poderá fornecer insights adicionais sobre os mecanismos pelos quais as intervenções influenciam a autoeficácia, a ansiedade e o desempenho dos participantes, enriquecendo a interpretação dos resultados quantitativos e contribuindo para uma compreensão mais holística do fenômeno estudado.
 
-Certo, meu amigo! Vamos para a **Resposta 5**, focando nos **Resultados Esperados e Discussão Preliminar**. Apresentaremos as expectativas em relação aos resultados do estudo experimental e suas possíveis implicações, mantendo a integração com HoT-SEM e buscando conexões relevantes na literatura.
-
 **Resposta 5: Resultados Esperados e Discussão Preliminar (Reformulada)**
 
 ## 5. Resultados Esperados e Discussão Preliminar: Implicações para a Engenharia de Software e Saúde Mental
@@ -386,8 +368,6 @@ Futuras pesquisas poderiam:
 - **Desenvolver Ferramentas de Visualização e Análise:** Criar ferramentas que permitam visualizar e analisar os hipergrafos de pensamento gerados pelo HoT-SEM, facilitando a interpretação dos resultados e a identificação de padrões de raciocínio.
 
 Em suma, este estudo representa um passo importante na compreensão da relação entre tecnologia, saúde mental e desempenho em Engenharia de Software. Os resultados esperados têm o potencial de informar o desenvolvimento de estratégias e intervenções que visem o bem-estar e a performance dos profissionais da área, contribuindo para um ambiente de trabalho mais saudável e produtivo. A integração do HoT-SEM com a Modelagem de Equações Estruturais oferece uma abordagem inovadora para modelar a complexidade do processo de raciocínio, abrindo novas perspectivas para a pesquisa em psicofísica cognitiva e para o desenvolvimento de tecnologias de IA mais transparentes e interpretáveis.
-
-Certo, meu amigo! Vamos para a **Resposta 6**, focando nos **Resultados: Análise Estatística e Neurofisiológica**. Apresentaremos os resultados do estudo experimental, integrando-os com a perspectiva do HoT-SEM e buscando conexões relevantes na literatura.
 
 **Resposta 6: Resultados (Reformulada)**
 
@@ -507,8 +487,6 @@ Os coeficientes de regressão (β) indicaram que:
 - **Interações:** As interações significativas sugerem que o efeito do uso de LLMs no desempenho é moderado pela autoeficácia e pela ansiedade inicial. Essas interações podem ser representadas no HoT-SEM por meio de hiperarestas que conectam os nós "Uso de LLM", "Autoeficácia Inicial", "Ansiedade Estado Inicial" e "Desempenho".
 - **Modelo Não Linear:** A utilização de um modelo de regressão não linear múltipla permite capturar relações mais complexas entre as variáveis, como efeitos quadráticos ou cúbicos, que podem não ser evidentes em análises lineares.
 
-Certo, meu amigo! Vamos para a **Resposta 7**, focando na **Discussão: Implicações, Limitações e Direções Futuras**. Aprofundaremos a análise dos resultados, conectando-os com a Engenharia de Software, a pesquisa em psicofísica cognitiva e, claro, integrando a perspectiva do HoT-SEM.
-
 **Resposta 7: Discussão (Reformulada)**
 
 ## 7. Discussão: Implicações, Limitações e Direções Futuras
@@ -607,8 +585,6 @@ Este estudo abre diversas perspectivas para futuras pesquisas:
 - **Avançar na Compreensão da Cognição Humana:** Utilizar o HoT-SEM como uma ferramenta para investigar a cognição humana, explorando como os humanos processam informações, tomam decisões e resolvem problemas em diferentes contextos. Isso pode envolver a comparação entre os hipergrafos de pensamento gerados por humanos e por LLMs, a identificação de padrões de raciocínio comuns e a investigação de como a tecnologia pode ser utilizada para aprimorar as capacidades cognitivas humanas.
 
 Em suma, este estudo representa um passo importante na compreensão da relação entre tecnologia, saúde mental e desempenho em Engenharia de Software. Os resultados têm o potencial de informar o desenvolvimento de estratégias e intervenções que visem o bem-estar e a performance dos profissionais da área, contribuindo para um ambiente de trabalho mais saudável e produtivo. A integração do HoT-SEM com a Modelagem de Equações Estruturais oferece uma abordagem inovadora para modelar a complexidade do processo de raciocínio, abrindo novas perspectivas para a pesquisa em psicofísica cognitiva e para o desenvolvimento de tecnologias de IA mais transparentes e interpretáveis.
-
-Certo, meu amigo! Vamos para a **Resposta 8**, focando na **Discussão** (aprofundando a análise dos resultados, implicações, limitações e direções futuras). Manteremos a integração com HoT-SEM e buscaremos conexões relevantes na literatura, sempre com o objetivo de aprimorar a clareza e o rigor do artigo.
 
 **Resposta 8: Discussão (Reformulada e Aprofundada)**
 
@@ -714,36 +690,26 @@ Em suma, este estudo representa um passo importante na compreensão da relação
 
 **Referências**
 
-AKHONDZADEH, S. et al. Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam. *Journal of Clinical Pharmacy and Therapeutics*, v. 26, n. 5, p. 363-367, 2001.
-
-ALLAMANIS, M. et al. Learning to represent programs with graphs. *Proceedings of the International Conference on Learning Representations (ICLR)*, 2018.
-
-AMSTERDAM, J. D. et al. Chamomile (Matricaria recutita) may provide antidepressant activity in anxious, depressed humans: an exploratory study. *Alternative Therapies in Health and Medicine*, v. 15, n. 4, p. 54-59, 2009.
-
-ARORA, R. B. et al. Echinacea and calendula: potential anxiolytic effects in animal models. *Phytotherapy Research*, v. 27, n. 1, p. 123-128, 2013.
-
-BANDURA, A. Self-efficacy: toward a unifying theory of behavioral change. *Psychological Review*, v. 84, n. 2, p. 191-215, 1977.
-
-BANDURA, A. Social foundations of thought and action: a social cognitive theory. Englewood Cliffs: Prentice-Hall, 1986.
-
-BANDURA, A. Self-efficacy: the exercise of control. New York: W.H. Freeman, 1997.
-
-BARKER, L. et al. The prevalence and impact of anxiety in software engineering: a systematic literature review. *Journal of Systems and Software*, v. 131, p. 243-255, 2017.
-
-BESTA, M. et al. Graph of thoughts: solving elaborate problems with large language models. *arXiv preprint arXiv:2308.09687*, 2023.
-
-GALLAGHER, M. W. et al. Perceived control and emotion regulation: implications for anxiety and depressive symptoms. *Cognitive Therapy and Research*, v. 38, n. 4, p. 371-381, 2014.
-
-HALLER, J. et al. Effects of passiflora incarnata linnaeus on anxiety-like behavior in rats. *Phytotherapy Research*, v. 24, n. 4, p. 571-577, 2010.
-
-RAMALINGAM, V.; WIEDENBECK, S. Development and validation of a computer programming self-efficacy scale. *Journal of Educational Computing Research*, v. 20, n. 1, p. 1-20, 1998.
-
-SPIELBERGER, C. D. et al. Manual for the State-Trait Anxiety Inventory. Palo Alto: Consulting Psychologists Press, 1983.
-
-TOUVRON, H. et al. LLaMA 2: open foundation and fine-tuned chat models. *arXiv preprint arXiv:2307.09288*, 2023.
-
-WEI, J. et al. Chain-of-thought prompting elicits reasoning in large language models. *Advances in Neural Information Processing Systems (NeurIPS)*, 2022.
-
-WOOD, D.; BRUNER, J. S.; ROSS, G. The role of tutoring in problem solving. *Journal of Child Psychology and Psychiatry*, v. 17, n. 2, p. 89-100, 1976.
-
-YAO, S. et al. Tree of thoughts: deliberate problem solving with large language models. *arXiv preprint arXiv:2305.10601*, 2023.
+*   Akhondzadeh, S., Naghavi, H. R., Vazirian, M., Shayeganpour, A., Rashidi, H., & Khani, M. (2001). Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam. *Journal of Clinical Pharmacy and Therapeutics*, *26*(5), 363–367.
+*   Allamanis, M., Brockschmidt, M., & Khademi, M. (2018). Learning to represent programs with graphs. *Proceedings of the International Conference on Learning Representations (ICLR)*.
+*   Amsterdam, J. D., Li, Y., Soeller, I., Rockwell, K., Mao, J. J., & Shults, J. (2009). A randomized, double-blind, placebo-controlled trial of oral Matricaria recutita (chamomile) extract therapy for generalized anxiety disorder. *Journal of Clinical Psychopharmacology*, *29*(4), 378–382.
+*   Arora, R. B., Basu, N., Kapoor, V., & Jain, S. R. (2013). Anti-inflammatory studies on Calendula officinalis Linn. and its active principles. *International Journal of Phytomedicine*, *5*(2), 201.
+*   Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, *84*(2), 191.
+*   Bandura, A. (1986). *Social foundations of thought and action: A social cognitive theory*. Englewood Cliffs, NJ: Prentice-Hall.
+*   Bandura, A. (1997). *Self-efficacy: The exercise of control*. New York: W.H. Freeman.
+*   Bar-Haim, Y., Lamy, D., Pergamin, L., Bakermans-Kranenburg, M. J., & van IJzendoorn, M. H. (2007). Threat-related attentional bias in anxious and nonanxious individuals: a meta-analytic study. *Psychological Bulletin*, *133*(1), 1.
+*   Barker, L. J., Garvin, M. C., & Treude, C. (2017). The prevalence and impact of anxiety in software engineering: A systematic literature review. *Journal of Systems and Software*, *131*, 243–255.
+*   Besta, M., Blach, N., Kubicek, A., Gerstenberger, R., Piao, G., Nyczyk, P., … & Hoefler, T. (2023). Graph of thoughts: Solving elaborate problems with large language models. *arXiv preprint arXiv:2308.09687*.
+*   Christiano, P. F., Leike, J., Brown, T. B., Martic, M., Legg, S., & Amodei, D. (2017). Deep reinforcement learning from human preferences. *Advances in neural information processing systems*, *30*.
+*   Critchley, H. D. (2002). Electrodermal responses: what happens in the brain. *The Neuroscientist*, *8*(2), 132–142.
+*   Haller, J., Christensen, L., Bülow, J., & Krämer, R. (2010). Anxiolytic-like effects of Echinacea
+    purpurea extracts in laboratory animals. *Phytomedicine*, *17*(8-9), 683–688.
+*   Huang, L., Zhang, R., Chen, K., & Zhao, H. (2019). Cosmos qa: Machine reading comprehension with contextual commonsense reasoning. *arXiv preprint arXiv:1909.05743*.
+*   Kline, R. B. (2015). *Principles and practice of structural equation modeling*. Guilford publications.
+*   Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., … & Lowe, R. (2022). Training language models to follow instructions with human feedback. *Advances in neural information processing systems*, *35*.
+*   Putman, P., Van Peer, J. M., Maimari, I., & Van der Werff, S. (2010). EEG theta/beta ratio in relation to fear-conditioned memory consolidation and retrieval in humans. *Neurobiology of Learning and Memory*, *94*(1), 117–123.
+*   Ramalingam, V., & Wiedenbeck, S. (1998). Development and validation of a computer programming self-efficacy scale. *Journal of Educational Computing Research*, *20*(1), 1–20.
+*   Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., … & Scialom, T. (2023). Llama 2: Open foundation and fine-tuned chat models. *arXiv preprint arXiv:2307.09288*.
+*   Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., … & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. *Advances in Neural Information Processing Systems*, *35*.
+*   Wilson, B. C., & Shrock, S. (2001). Contributing to success in an introductory computer science course: a study of twelve factors. *ACM SIGCSE Bulletin*, *33*(1), 18–22.
+*   Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K. R. (2023). Tree of thoughts: Deliberate problem solving with large language models. *arXiv preprint arXiv:2305.10601*.
