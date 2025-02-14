@@ -193,7 +193,7 @@ O estudo seguirá os seguintes procedimentos:
 
 - **Construção do Hipergrafo:** Os "pensamentos" gerados pelos participantes (com ou sem o auxílio do LLM) durante a tarefa de análise de código foram representados como nós no hipergrafo. As relações entre esses pensamentos (ex: dependência, suporte, contradição, correção) foram representadas como hiperarestas. Os dados neurofisiológicos também foram representados como nós, permitindo investigar as relações entre os estados emocionais e cognitivos e o processo de raciocínio.
 - **Modelagem de Equações Estruturais:** A SEM será utilizada para testar modelos teóricos que especifiquem as relações causais entre as variáveis do estudo (ansiedade, autoeficácia, desempenho) e os "pensamentos" gerados durante a tarefa, bem como os estados neurofisiológicos.
-- **Análise Qualitativa (Opcional):** A análise de conteúdo dos prompts utilizados pelos participantes do grupo "Com LLM" e as entrevistas semiestruturadas podem fornecer insights adicionais sobre o processo de raciocínio e a construção do hipergrafo de pensamento.
+- **Análise Qualitativa:** A análise de conteúdo dos prompts utilizados pelos participantes do grupo "Com LLM" e as entrevistas semiestruturadas podem fornecer insights adicionais sobre o processo de raciocínio e a construção do hipergrafo de pensamento.
 
 **Resposta 4: Análise dos Dados (Reformulada)**
 
@@ -276,7 +276,7 @@ A análise de regressão permitirá determinar a contribuição relativa de cada
 
 **Conexão com HoT-SEM:** A análise de regressão não linear múltipla pode ser vista como uma forma simplificada de modelagem HoT-SEM, onde as relações entre as variáveis são representadas por uma equação matemática em vez de um hipergrafo. No entanto, os resultados da análise de regressão podem ser usados para informar a construção do modelo HoT-SEM, sugerindo quais variáveis e interações devem ser incluídas no modelo. Por exemplo, se a análise de regressão indicar que a interação entre o uso de LLMs e a autoeficácia inicial é um preditor significativo do desempenho, essa interação pode ser representada no modelo HoT-SEM por meio de uma hiperaresta que conecta os nós correspondentes.
 
-### 4.7 Análise Qualitativa (Opcional): Aprofundando a Compreensão
+### 4.7 Análise Qualitativa: Aprofundando a Compreensão
 
 Além das análises quantitativas descritas acima, poderá ser realizada uma análise qualitativa dos dados, com o objetivo de complementar e aprofundar a compreensão dos resultados. Essa análise poderá envolver:
 
