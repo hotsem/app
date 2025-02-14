@@ -73,7 +73,7 @@ O estudo adotará um delineamento experimental fatorial 2x2, com dois fatores in
 
 1. **Uso de LLMs (Com LLM vs. Sem LLM):**
   
-  - **Com LLM:** Os participantes utilizarão um LLM (ex: Qwen2.5-Max, LLaMA 2) integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM auxiliará na análise de código, fornecendo sugestões, identificando erros e respondendo a perguntas. O HoT-SEM será implicitamente incorporado na interação, com o LLM gerando "pensamentos" (sugestões, explicações, trechos de código) que podem ser conectados em um hipergrafo, representando o processo de raciocínio.
+  - **Com LLM:** Os participantes utilizarão um LLM (ex: Qwen2.5-Max, DeepSeek R1) integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM auxiliará na análise de código, fornecendo sugestões, identificando erros e respondendo a perguntas. O HoT-SEM será implicitamente incorporado na interação, com o LLM gerando "pensamentos" (sugestões, explicações, trechos de código) que podem ser conectados em um hipergrafo, representando o processo de raciocínio.
   - **Sem LLM:** Os participantes realizarão a análise de código sem o auxílio de LLMs, utilizando apenas seus conhecimentos e ferramentas tradicionais (editores de texto, debuggers, etc.).
 2. **Ingestão de Fitoterápicos (Blend vs. Placebo):**
   
@@ -109,7 +109,7 @@ O recrutamento será realizado por meio de convites em sala de aula, e-mails e c
 
 **3.3.1 Large Language Models (LLMs): Ferramenta de Apoio Cognitivo**
 
-Os participantes do grupo "Com LLM" terão acesso a um LLM de última geração, como Qwen2.5-Max (OpenAI, 2023) ou LLaMA 2 (Touvron et al., 2023b), integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM será treinado em um conjunto de dados de código e documentação técnica, permitindo que ele:
+Os participantes do grupo "Com LLM" terão acesso a um LLM de última geração, como Qwen2.5-Max, integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM será treinado em um conjunto de dados de código e documentação técnica, permitindo que ele:
 
 - **Identifique erros de sintaxe e lógica:** O LLM atuará como um "revisor de código inteligente", apontando erros e sugerindo correções.
 - **Sugira melhorias de código:** O LLM poderá propor otimizações em termos de eficiência, legibilidade e manutenibilidade.
@@ -710,7 +710,6 @@ Em suma, este estudo representa um passo importante na compreensão da relação
 - Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., … & Lowe, R. (2022). Training language models to follow instructions with human feedback. *Advances in neural information processing systems*, *35*.
 - Putman, P., Van Peer, J. M., Maimari, I., & Van der Werff, S. (2010). EEG theta/beta ratio in relation to fear-conditioned memory consolidation and retrieval in humans. *Neurobiology of Learning and Memory*, *94*(1), 117–123.
 - Ramalingam, V., & Wiedenbeck, S. (1998). Development and validation of a computer programming self-efficacy scale. *Journal of Educational Computing Research*, *20*(1), 1–20.
-- Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., … & Scialom, T. (2023). Llama 2: Open foundation and fine-tuned chat models. *arXiv preprint arXiv:2307.09288*.
 - Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., … & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. *Advances in Neural Information Processing Systems*, *35*.
 - Wilson, B. C., & Shrock, S. (2001). Contributing to success in an introductory computer science course: a study of twelve factors. *ACM SIGCSE Bulletin*, *33*(1), 18–22.
 - Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., & Narasimhan, K. R. (2023). Tree of thoughts: Deliberate problem solving with large language models. *arXiv preprint arXiv:2305.10601*.
