@@ -98,8 +98,6 @@ A amostra será composta por 40 estudantes de graduação em Engenharia de Softw
 Os critérios de inclusão visam garantir a homogeneidade da amostra e a segurança dos participantes:
 
 - **Matrícula regular:** Garante que os participantes estejam ativamente envolvidos no curso de Engenharia de Software.
-- **Conhecimento básico de programação:** Assegura que os participantes tenham as habilidades mínimas necessárias para realizar a tarefa de análise de código.
-- **Ausência de transtornos mentais graves:** Evita a inclusão de participantes que possam ter sua saúde mental afetada pelo estudo.
 - **Não utilização de medicamentos ansiolíticos ou antidepressivos:** Garante que os resultados não sejam influenciados por medicamentos que afetam a ansiedade.
 - **Ausência de alergia aos fitoterápicos:** Garante a segurança dos participantes.
 
