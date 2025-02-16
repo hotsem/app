@@ -73,7 +73,7 @@ O estudo adotará um delineamento experimental fatorial 2x2x2, com dois fatores 
 
 1. **Uso de LLMs (Com LLM vs. Sem LLM):**
   
-  - **Com LLM:** Os participantes utilizarão um LLM (ex: Qwen2.5-Max, DeepSeek R1) integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM auxiliará na análise de código, fornecendo sugestões, identificando erros e respondendo a perguntas. O HoT-SEM será implicitamente incorporado na interação, com o LLM gerando "pensamentos" (sugestões, explicações, trechos de código) que podem ser conectados em um hipergrafo, representando o processo de raciocínio.
+  - **Com LLM:** Os participantes utilizarão um LLM (ex: Qwen2.5-Max, DeepSeek R1) integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM auxiliará na análise de código, fornecendo sugestões, identificando erros e respondendo a perguntas. O HoT-SEM foi implicitamente incorporado na interação, com o LLM gerando "pensamentos" (sugestões, explicações, trechos de código) que podem ser conectados em um hipergrafo, representando o processo de raciocínio.
   - **Sem LLM:** Os participantes realizarão a análise de código sem o auxílio de LLMs, utilizando apenas seus conhecimentos e ferramentas tradicionais (editores de texto, debuggers, etc.).
 2. **Ingestão de Fitoterápicos (Blend vs. Placebo):**
   
@@ -93,7 +93,7 @@ Este delineamento fatorial permite avaliar os efeitos principais de cada interve
 
 ### 3.2 Participantes: Amostra Representativa e Critérios de Inclusão
 
-A amostra será composta por 40 estudantes de graduação em Engenharia de Software da Universidade do Distrito Federal (UnDF). A escolha de estudantes como participantes se justifica pela facilidade de acesso e pela homogeneidade da amostra em termos de conhecimento técnico e experiência. No entanto, é importante reconhecer que os resultados podem não ser generalizáveis para profissionais experientes.
+A amostra foi composta por 40 estudantes de graduação em Engenharia de Software da Universidade do Distrito Federal (UnDF). A escolha de estudantes como participantes se justifica pela facilidade de acesso e pela homogeneidade da amostra em termos de conhecimento técnico e experiência. No entanto, é importante reconhecer que os resultados podem não ser generalizáveis para profissionais experientes.
 
 Os critérios de inclusão visam garantir a homogeneidade da amostra e a segurança dos participantes:
 
@@ -101,13 +101,13 @@ Os critérios de inclusão visam garantir a homogeneidade da amostra e a seguran
 - **Não utilização de medicamentos ansiolíticos ou antidepressivos:** Garante que os resultados não sejam influenciados por medicamentos que afetam a ansiedade.
 - **Ausência de alergia aos fitoterápicos:** Garante a segurança dos participantes.
 
-O recrutamento será realizado por meio de convites em sala de aula, e-mails e cartazes informativos, garantindo a divulgação ampla e transparente do estudo. Todos os participantes assinarão um Termo de Consentimento Livre e Esclarecido (TCLE), assegurando que sua participação seja voluntária e informada.
+O recrutamento foi realizado por meio de convites em sala de aula e cartazes informativos, garantindo a divulgação ampla e transparente do estudo. Todos os participantes assinarão um Termo de Consentimento Livre e Esclarecido (TCLE), assegurando que sua participação seja voluntária e informada.
 
 ### 3.3 Intervenções: LLMs e Fitoterápicos
 
 **3.3.1 Large Language Models (LLMs): Ferramenta de Apoio Cognitivo**
 
-Os participantes do grupo "Com LLM" terão acesso a um LLM de última geração, como Qwen2.5-Max, integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM será treinado em um conjunto de dados de código e documentação técnica, permitindo que ele:
+Os participantes do grupo "Com LLM" terão acesso a um LLM de última geração, como Qwen2.5-Max, integrado a um ambiente de desenvolvimento (IDE) ou interface web. O LLM foi treinado em um conjunto de dados de código e documentação técnica, permitindo que ele:
 
 - **Identifique erros de sintaxe e lógica:** O LLM atuará como um "revisor de código inteligente", apontando erros e sugerindo correções.
 - **Sugira melhorias de código:** O LLM poderá propor otimizações em termos de eficiência, legibilidade e manutenibilidade.
@@ -115,20 +115,20 @@ Os participantes do grupo "Com LLM" terão acesso a um LLM de última geração,
 - **Gere testes unitários e de integração:** O LLM poderá auxiliar na criação de testes, aumentando a cobertura e a qualidade do código.
 - **Explique o funcionamento de trechos de código:** O LLM poderá fornecer explicações detalhadas sobre o funcionamento de trechos de código complexos, facilitando a compreensão.
 
-É importante ressaltar que o LLM atuará como uma ferramenta de apoio, e a decisão final sobre as modificações no código será sempre dos participantes. Essa abordagem visa promover a colaboração entre humanos e IA, aproveitando os pontos fortes de cada um.
+É importante ressaltar que o LLM atuará como uma ferramenta de apoio, e a decisão final sobre as modificações no código foi sempre dos participantes. Essa abordagem visa promover a colaboração entre humanos e IA, aproveitando os pontos fortes de cada um.
 
 **Conexão com HoT-SEM:** A interação com o LLM pode ser modelada como um processo de construção de um hipergrafo de pensamento. Cada prompt enviado ao LLM e cada resposta recebida podem ser representados como nós no hipergrafo. As relações entre os prompts e as respostas, bem como as relações entre diferentes trechos de código e explicações, podem ser representadas como hiperarestas. Essa representação permite analisar o processo de raciocínio de forma mais detalhada e identificar padrões de interação que levam a melhores resultados.
 
 **3.3.2 Blend de Fitoterápicos: Modulação Natural da Ansiedade**
 
-O blend de fitoterápicos será composto por extratos padronizados de plantas medicinais com propriedades ansiolíticas comprovadas:
+O blend de fitoterápicos foi composto por extratos padronizados de plantas medicinais com propriedades ansiolíticas comprovadas:
 
 - ***Passiflora incarnata***: Estudos clínicos demonstram sua eficácia no tratamento da ansiedade generalizada (Akhondzadeh et al., 2001).
 - ***Matricaria chamomilla*** (Camomila): Amplamente utilizada para promover o relaxamento e reduzir a ansiedade (Amsterdam et al., 2009).
 - ***Echinacea purpurea***: Possui potencial ansiolítico, além de suas propriedades imunoestimulantes (Haller et al., 2010).
 - ***Calendula officinalis***: Apresenta propriedades anti-inflamatórias e calmantes (Arora et al., 2013).
 
-As doses de cada extrato foram cuidadosamente definidas com base em estudos anteriores e recomendações de especialistas em fitoterapia, garantindo a segurança e a eficácia da intervenção. O blend será administrado em forma de cápsulas ou chá, 30 minutos antes do início da tarefa, para permitir a absorção dos compostos ativos.
+As doses de cada extrato foram cuidadosamente definidas com base em estudos anteriores e recomendações de especialistas em fitoterapia, garantindo a segurança e a eficácia da intervenção. O blend foi administrado em forma de cápsulas ou chá, 30 minutos antes do início da tarefa, para permitir a absorção dos compostos ativos.
 
 **Conexão com HoT-SEM:** A ingestão do blend de fitoterápicos pode ser representada como um nó no hipergrafo, influenciando outros nós relacionados ao estado emocional (ansiedade) e cognitivo (atenção, foco) dos participantes. As hiperarestas podem capturar as relações entre a ingestão do blend, as medidas neurofisiológicas (EEG, ECG, EDA) e o desempenho na tarefa.
 
@@ -138,34 +138,34 @@ Para avaliar os efeitos das intervenções e as relações entre as variáveis, 
 
 **3.4.1 Autoeficácia: Escala Adaptada e Contextualizada**
 
-A autoeficácia será medida utilizando uma escala adaptada do *Computer Programming Self-Efficacy Scale* (SPSES) (Ramalingam & Wiedenbeck, 1998). A escala original avalia a confiança dos indivíduos em suas habilidades de programação em geral. A adaptação consistirá em:
+A autoeficácia foi medida utilizando uma escala adaptada do *Computer Programming Self-Efficacy Scale* (SPSES) (Ramalingam & Wiedenbeck, 1998). A escala original avalia a confiança dos indivíduos em suas habilidades de programação em geral. A adaptação consistirá em:
 
 - **Foco na Análise de Código:** Os itens foram ajustados para refletir as tarefas específicas envolvidas na análise de código, como identificar erros, compreender a lógica do código e propor soluções.
 - **Formato Likert:** A escala utilizará um formato Likert de 5 pontos (1 = "Discordo totalmente" a 5 = "Concordo totalmente"), permitindo uma avaliação quantitativa da autoeficácia.
-- **Medição em Dois Momentos:** A escala será aplicada antes e depois da intervenção, permitindo avaliar a mudança na autoeficácia ao longo do tempo.
+- **Medição em Dois Momentos:** A escala foi aplicada antes e depois da intervenção, permitindo avaliar a mudança na autoeficácia ao longo do tempo.
 
 **3.4.2 Ansiedade Estado: Medida Validada e Sensível**
 
-A ansiedade estado será avaliada utilizando a subescala de ansiedade estado do *State-Trait Anxiety Inventory* (STAI) (Spielberger et al., 1983). O STAI é um instrumento amplamente utilizado e validado para medir a ansiedade, tanto como um traço de personalidade (ansiedade traço) quanto como um estado emocional transitório (ansiedade estado). A subescala de ansiedade estado consiste em 20 itens, com respostas em formato Likert de 4 pontos (1 = "Absolutamente não" a 4 = "Muitíssimo"). A aplicação será realizada antes e depois da intervenção, permitindo avaliar a mudança na ansiedade estado ao longo do tempo.
+A ansiedade estado foi avaliada utilizando a subescala de ansiedade estado do *State-Trait Anxiety Inventory* (STAI) (Spielberger et al., 1983). O STAI é um instrumento amplamente utilizado e validado para medir a ansiedade, tanto como um traço de personalidade (ansiedade traço) quanto como um estado emocional transitório (ansiedade estado). A subescala de ansiedade estado consiste em 20 itens, com respostas em formato Likert de 4 pontos (1 = "Absolutamente não" a 4 = "Muitíssimo"). A aplicação foi realizada antes e depois da intervenção, permitindo avaliar a mudança na ansiedade estado ao longo do tempo.
 
 **3.4.3 Medidas Neurofisiológicas: Objetividade e Profundidade**
 
 As medidas neurofisiológicas fornecerão dados objetivos sobre os estados emocionais e cognitivos dos participantes, complementando as informações subjetivas obtidas por meio dos questionários. foram coletadas as seguintes medidas:
 
-- **Eletroencefalografia (EEG):** A atividade cerebral será registrada utilizando um sistema de EEG de alta densidade (ex: 64 canais). foram analisadas as frequências alfa (8-13 Hz) e beta (13-30 Hz), associadas a estados de relaxamento e atenção, respectivamente. A razão beta/alfa será calculada como um indicador do nível de ativação cognitiva.
-- **Eletrocardiografia (ECG):** A frequência cardíaca (FC) será medida utilizando um sensor de ECG. A FC é um indicador da ativação do sistema nervoso autônomo simpático, associado à resposta de estresse e ansiedade.
-- **Atividade Eletrodérmica (EDA):** A condutância da pele será medida utilizando sensores colocados nos dedos dos participantes. A EDA reflete a atividade das glândulas sudoríparas, controladas pelo sistema nervoso simpático e responsivas a estímulos emocionais e estressores.
+- **Eletroencefalografia (EEG):** A atividade cerebral foi registrada utilizando um sistema de EEG de alta densidade (ex: 64 canais). foram analisadas as frequências alfa (8-13 Hz) e beta (13-30 Hz), associadas a estados de relaxamento e atenção, respectivamente. A razão beta/alfa foi calculada como um indicador do nível de ativação cognitiva.
+- **Eletrocardiografia (ECG):** A frequência cardíaca (FC) foi medida utilizando um sensor de ECG. A FC é um indicador da ativação do sistema nervoso autônomo simpático, associado à resposta de estresse e ansiedade.
+- **Atividade Eletrodérmica (EDA):** A condutância da pele foi medida utilizando sensores colocados nos dedos dos participantes. A EDA reflete a atividade das glândulas sudoríparas, controladas pelo sistema nervoso simpático e responsivas a estímulos emocionais e estressores.
 - **Rastreamento Ocular (POG):** Os movimentos oculares foram registrados utilizando um sistema de rastreamento ocular (eye-tracker). foram analisadas as seguintes medidas:
   - **Número de fixações:** Quantidade de vezes que o olhar se fixa em um ponto específico do código.
   - **Duração das fixações:** Tempo médio que o olhar permanece fixo em um ponto.
   - **Diâmetro pupilar:** Medida do tamanho da pupila, que pode indicar o nível de carga cognitiva e atenção.
   - **Taxa de piscadas:** Frequência com que os participantes piscam, que pode estar relacionada ao nível de estresse e fadiga.
 
-A coleta dessas medidas permitirá uma análise mais completa e objetiva dos efeitos das intervenções sobre a ansiedade, a autoeficácia e os processos cognitivos envolvidos na tarefa de análise de código.
+A coleta dessas medidas permitiu uma análise mais completa e objetiva dos efeitos das intervenções sobre a ansiedade, a autoeficácia e os processos cognitivos envolvidos na tarefa de análise de código.
 
 **3.4.4 Desempenho na Tarefa: Métricas de Eficiência e Eficácia**
 
-O desempenho dos participantes na tarefa de análise de código será avaliado com base em duas métricas principais:
+O desempenho dos participantes na tarefa de análise de código foi avaliado com base em duas métricas principais:
 
 - **Número de erros identificados corretamente:** Quantidade de erros de sintaxe, lógica e segurança que os participantes conseguem identificar e corrigir no código. Essa medida reflete a eficácia da análise de código.
 - **Tempo total de execução da tarefa:** Tempo gasto pelos participantes para completar a análise do código. Essa medida reflete a eficiência da análise de código.
@@ -178,34 +178,34 @@ O estudo seguirá os seguintes procedimentos:
 
 1. **Recrutamento e Seleção:** Os participantes foram recrutados por meio de convites em sala de aula, e-mails e cartazes informativos na UnDF. Os interessados preencherão um questionário de triagem para verificar se atendem aos critérios de inclusão.
 2. **Consentimento Informado:** Os participantes selecionados foram convidados a participar de uma sessão informativa, onde receberão informações detalhadas sobre o estudo, incluindo os objetivos, os procedimentos, os riscos e os benefícios. Aqueles que concordarem em participar assinarão o Termo de Consentimento Livre e Esclarecido (TCLE).
-3. **Randomização:** Os participantes foram aleatoriamente designados para um dos quatro grupos experimentais (LLM + Fitoterápicos, LLM + Placebo, Sem LLM + Fitoterápicos, Sem LLM + Placebo). A randomização será realizada por meio de um software ou de uma tabela de números aleatórios, garantindo a equivalência inicial dos grupos.
+3. **Randomização:** Os participantes foram aleatoriamente designados para um dos quatro grupos experimentais (LLM + Fitoterápicos, LLM + Placebo, Sem LLM + Fitoterápicos, Sem LLM + Placebo). A randomização foi realizada por meio de um notebook Google Colab, garantindo a equivalência inicial dos grupos.
 4. **Coleta de Dados Basais:** Antes do início da intervenção, os participantes preencherão a escala de autoeficácia (SPSES adaptada) e a subescala de ansiedade estado do STAI. Esses dados fornecerão uma linha de base para comparar os efeitos das intervenções.
 5. **Intervenção:**
   - **Administração dos Fitoterápicos/Placebo:** Os participantes dos grupos "Fitoterápicos" ingerirão o blend de fitoterápicos, enquanto os participantes dos grupos "Placebo" ingerirão uma substância inerte. Haverá um período de espera de 30 minutos para permitir a absorção dos fitoterápicos.
   - **Tarefa de Análise de Código:** Os participantes receberão um trecho de código com erros de sintaxe, lógica e/ou segurança. A tarefa consistirá em identificar e corrigir o maior número possível de erros em um tempo determinado (ex: 30 minutos). Os participantes do grupo "Com LLM" terão acesso ao LLM durante a tarefa, podendo interagir com o modelo por meio de prompts em linguagem natural.
 6. **Coleta de Dados Neurofisiológicos:** Durante a tarefa de análise de código, foram coletadas as medidas neurofisiológicas (EEG, ECG, EDA e POG) de forma contínua. Esses dados fornecerão informações objetivas sobre os estados emocionais e cognitivos dos participantes durante a tarefa.
-7. **Coleta de Dados Pós-Intervenção:** Após a conclusão da tarefa, os participantes preencherão novamente a escala de autoeficácia (SPSES adaptada) e a subescala de ansiedade estado do STAI. Esses dados permitirão avaliar o impacto das intervenções sobre a autoeficácia e a ansiedade dos participantes.
+7. **Coleta de Dados Pós-Intervenção:** Após a conclusão da tarefa, os participantes preencherão novamente a escala de autoeficácia (SPSES adaptada) e a subescala de ansiedade estado do STAI. Esses dados permitiram avaliar o impacto das intervenções sobre a autoeficácia e a ansiedade dos participantes.
 8. **Análise de Dados:** Os dados coletados foram analisados utilizando técnicas estatísticas apropriadas (ex: ANOVA, ANCOVA, testes de correlação, regressão) para comparar os grupos experimentais e investigar as relações entre as variáveis.
 
 **Conexão com HoT-SEM:**
 
 - **Construção do Hipergrafo:** Os "pensamentos" gerados pelos participantes (com ou sem o auxílio do LLM) durante a tarefa de análise de código foram representados como nós no hipergrafo. As relações entre esses pensamentos (ex: dependência, suporte, contradição, correção) foram representadas como hiperarestas. Os dados neurofisiológicos também foram representados como nós, permitindo investigar as relações entre os estados emocionais e cognitivos e o processo de raciocínio.
-- **Modelagem de Equações Estruturais:** A SEM será utilizada para testar modelos teóricos que especifiquem as relações causais entre as variáveis do estudo (ansiedade, autoeficácia, desempenho) e os "pensamentos" gerados durante a tarefa, bem como os estados neurofisiológicos.
+- **Modelagem de Equações Estruturais:** A SEM foi utilizada para testar modelos teóricos que especifiquem as relações causais entre as variáveis do estudo (ansiedade, autoeficácia, desempenho) e os "pensamentos" gerados durante a tarefa, bem como os estados neurofisiológicos.
 - **Análise Qualitativa:** A análise de conteúdo dos prompts utilizados pelos participantes do grupo "Com LLM" e as entrevistas semiestruturadas podem fornecer insights adicionais sobre o processo de raciocínio e a construção do hipergrafo de pensamento.
 
 **Resposta 4: Análise dos Dados**
 
 ## 4. Análise dos Dados: Abordagens Estatísticas e Métodos de Interpretação
 
-Esta seção detalha os procedimentos de análise de dados que foram empregados para investigar os efeitos das intervenções (uso de LLMs e ingestão de fitoterápicos) sobre a autoeficácia, ansiedade estado e desempenho na tarefa de análise de código, bem como as relações entre essas variáveis. A análise será conduzida utilizando o software estatístico Jamovi 2.6.2, e o nível de significância adotado será de 5% (p < 0,05). A abordagem integrará a Modelagem de Equações Estruturais (SEM) com a perspectiva do Hypergraph of Thought (HoT-SEM), permitindo uma análise mais rica e interpretável dos dados.
+Esta seção detalha os procedimentos de análise de dados que foram empregados para investigar os efeitos das intervenções (uso de LLMs e ingestão de fitoterápicos) sobre a autoeficácia, ansiedade estado e desempenho na tarefa de análise de código, bem como as relações entre essas variáveis. A análise foi conduzida utilizando um notebook Google Colab, e o nível de significância adotado foi de 5% (p < 0,05). A abordagem integrará a Modelagem de Equações Estruturais (SEM) com a perspectiva do Hypergraph of Thought (HoT-SEM), permitindo uma análise mais rica e interpretável dos dados.
 
 ### 4.1 Verificação de Suposições: Garantindo a Validade das Análises
 
 Antes da realização das análises estatísticas principais, foram verificadas as suposições necessárias para a validade dos testes paramétricos, incluindo:
 
-- **Normalidade dos Resíduos:** A distribuição dos resíduos (diferenças entre os valores observados e os valores preditos pelo modelo) será avaliada por meio de testes estatísticos (ex.: Shapiro-Wilk, Kolmogorov-Smirnov) e inspeção visual de histogramas e gráficos Q-Q. Caso a suposição de normalidade seja violada, foram consideradas transformações dos dados (ex.: logarítmica, raiz quadrada) ou o uso de testes não paramétricos (ex.: Kruskal-Wallis, Mann-Whitney).
-- **Homocedasticidade:** A homogeneidade das variâncias (homocedasticidade) será avaliada por meio de testes estatísticos (ex.: Levene, Bartlett) e inspeção visual de gráficos de dispersão dos resíduos. Caso a suposição de homocedasticidade seja violada, foram consideradas correções nos graus de liberdade (ex.: Welch's ANOVA) ou o uso de testes robustos (ex.: Brown-Forsythe).
-- **Independência das Observações:** A independência das observações será garantida pelo delineamento experimental, que envolve a randomização dos participantes para os diferentes grupos e a coleta de dados de forma individual.
+- **Normalidade dos Resíduos:** A distribuição dos resíduos (diferenças entre os valores observados e os valores preditos pelo modelo) foi avaliada por meio de testes estatísticos (ex.: Shapiro-Wilk, Kolmogorov-Smirnov) e inspeção visual de histogramas e gráficos Q-Q. Caso a suposição de normalidade seja violada, foram consideradas transformações dos dados (ex.: logarítmica, raiz quadrada) ou o uso de testes não paramétricos (ex.: Kruskal-Wallis, Mann-Whitney).
+- **Homocedasticidade:** A homogeneidade das variâncias (homocedasticidade) foi avaliada por meio de testes estatísticos (ex.: Levene, Bartlett) e inspeção visual de gráficos de dispersão dos resíduos. Caso a suposição de homocedasticidade seja violada, foram consideradas correções nos graus de liberdade (ex.: Welch's ANOVA) ou o uso de testes robustos (ex.: Brown-Forsythe).
+- **Independência das Observações:** A independência das observações foi garantida pelo delineamento experimental, que envolve a randomização dos participantes para os diferentes grupos e a coleta de dados de forma individual.
 
 **Conexão com HoT-SEM:** A verificação dessas suposições é crucial para garantir a validade das análises estatísticas e, consequentemente, a confiabilidade das inferências sobre o modelo HoT-SEM. Violações dessas suposições podem levar a interpretações equivocadas das relações entre os nós do hipergrafo.
 
@@ -217,9 +217,9 @@ foram calculadas estatísticas descritivas (média, desvio padrão, mediana, mí
 
 ### 4.3 Análise de Variância Multivariada com Covariáveis (MANCOVA): Testando os Efeitos das Intervenções
 
-Para testar os efeitos principais e a interação entre o uso de LLMs e a ingestão de fitoterápicos sobre as variáveis dependentes (autoeficácia, ansiedade estado e desempenho), será utilizada uma MANCOVA fatorial 2x2x2. A MANCOVA é uma extensão da ANOVA que permite controlar o efeito de covariáveis (variáveis que podem influenciar os resultados, mas não são o foco principal do estudo). Neste estudo, as covariáveis foram a autoeficácia e a ansiedade estado iniciais (medidas antes da intervenção).
+Para testar os efeitos principais e a interação entre o uso de LLMs e a ingestão de fitoterápicos sobre as variáveis dependentes (autoeficácia, ansiedade estado e desempenho), foi utilizada uma MANCOVA fatorial 2x2x2. A MANCOVA é uma extensão da ANOVA que permite controlar o efeito de covariáveis (variáveis que podem influenciar os resultados, mas não são o foco principal do estudo). Neste estudo, as covariáveis foram a autoeficácia e a ansiedade estado iniciais (medidas antes da intervenção).
 
-A MANCOVA permitirá avaliar:
+A MANCOVA permitiu avaliar:
 
 - **Efeitos Principais:** Se o uso de LLMs e a ingestão de fitoterápicos, isoladamente, têm um impacto significativo nas variáveis dependentes.
 - **Interação:** Se o efeito combinado do uso de LLMs e da ingestão de fitoterápicos é diferente do efeito de cada intervenção isoladamente (efeito sinérgico ou antagônico).
@@ -230,7 +230,7 @@ Caso sejam encontrados efeitos principais ou interações significativas, foram 
 
 ### 4.4 Análises de Correlação: Investigando as Relações entre as Variáveis
 
-foram calculadas correlações de Pearson entre as variáveis de autoeficácia, ansiedade estado e desempenho. Essas correlações permitirão investigar a relação entre a confiança dos participantes em suas habilidades, seus níveis de ansiedade e sua performance na tarefa de análise de código. As seguintes correlações foram investigadas:
+foram calculadas correlações de Pearson entre as variáveis de autoeficácia, ansiedade estado e desempenho. Essas correlações permitiram investigar a relação entre a confiança dos participantes em suas habilidades, seus níveis de ansiedade e sua performance na tarefa de análise de código. As seguintes correlações foram investigadas:
 
 - **Autoeficácia e Ansiedade Estado:** Espera-se uma correlação negativa, indicando que participantes com maior autoeficácia tendem a apresentar menores níveis de ansiedade.
 - **Autoeficácia e Desempenho:** Espera-se uma correlação positiva, indicando que participantes com maior autoeficácia tendem a apresentar melhor desempenho na tarefa.
@@ -242,9 +242,9 @@ foram calculadas correlações de Pearson entre as variáveis de autoeficácia, 
 
 Os dados neurofisiológicos (EEG, ECG, EDA e POG) foram analisados para complementar os dados dos questionários e fornecer informações sobre os processos emocionais e cognitivos subjacentes às intervenções.
 
-- **EEG:** A atividade cerebral será analisada em termos de potência espectral nas bandas de frequência alfa (8-13 Hz) e beta (13-30 Hz). A razão beta/alfa será calculada como um indicador do nível de ativação cognitiva. Espera-se que o uso de LLMs esteja associado a um aumento da atividade beta e da razão beta/alfa, indicando maior engajamento cognitivo e foco na tarefa. Essa análise pode ser conectada ao conceito de "fluxo de pensamento" no HoT, onde a atividade beta pode refletir a intensidade e a complexidade do fluxo de pensamentos no hipergrafo.
-- **ECG:** A frequência cardíaca (FC) será calculada a partir dos intervalos R-R do ECG. Espera-se que a ingestão de fitoterápicos esteja associada a uma diminuição da FC, indicando um estado de maior relaxamento. Essa medida pode ser relacionada a um nó específico no HoT que representa o estado fisiológico do participante.
-- **EDA:** A condutância da pele será medida em microsiemens (µS). Espera-se que a ingestão de fitoterápicos esteja associada a uma diminuição da condutância da pele, indicando menor ativação do sistema nervoso simpático e menor resposta de estresse. Essa medida também pode ser representada como um nó no HoT, conectado ao nó de ansiedade.
+- **EEG:** A atividade cerebral foi analisada em termos de potência espectral nas bandas de frequência alfa (8-13 Hz) e beta (13-30 Hz). A razão beta/alfa foi calculada como um indicador do nível de ativação cognitiva. Espera-se que o uso de LLMs esteja associado a um aumento da atividade beta e da razão beta/alfa, indicando maior engajamento cognitivo e foco na tarefa. Essa análise pode ser conectada ao conceito de "fluxo de pensamento" no HoT, onde a atividade beta pode refletir a intensidade e a complexidade do fluxo de pensamentos no hipergrafo.
+- **ECG:** A frequência cardíaca (FC) foi calculada a partir dos intervalos R-R do ECG. Espera-se que a ingestão de fitoterápicos esteja associada a uma diminuição da FC, indicando um estado de maior relaxamento. Essa medida pode ser relacionada a um nó específico no HoT que representa o estado fisiológico do participante.
+- **EDA:** A condutância da pele foi medida em microsiemens (µS). Espera-se que a ingestão de fitoterápicos esteja associada a uma diminuição da condutância da pele, indicando menor ativação do sistema nervoso simpático e menor resposta de estresse. Essa medida também pode ser representada como um nó no HoT, conectado ao nó de ansiedade.
 - **POG:** foram analisadas as seguintes medidas: número de fixações, duração das fixações, diâmetro pupilar e taxa de piscadas. Espera-se que o uso de LLMs esteja associado a um menor número de fixações e maior duração das fixações, indicando maior eficiência na busca visual e no processamento da informação. Espera-se também que a ingestão de fitoterápicos esteja associada a um menor diâmetro pupilar e menor taxa de piscadas, indicando menor carga cognitiva e estresse. Essas medidas podem ser relacionadas a nós no HoT que representam a atenção, o esforço cognitivo e a carga de trabalho.
 
 As medidas neurofisiológicas foram correlacionadas com as variáveis de autoeficácia, ansiedade estado e desempenho, a fim de investigar os mecanismos neurobiológicos subjacentes aos efeitos das intervenções. Além disso, essas medidas podem ser integradas ao modelo HoT-SEM como nós adicionais, permitindo uma análise mais completa e integrada dos dados.
@@ -253,9 +253,9 @@ As medidas neurofisiológicas foram correlacionadas com as variáveis de autoefi
 
 ### 4.6 Análise de Regressão Não Linear Múltipla: Modelando a Complexidade das Relações
 
-Uma análise de regressão não linear múltipla será conduzida para investigar se as variáveis preditoras (uso de LLMs, ingestão de fitoterápicos, autoeficácia inicial e ansiedade estado inicial) explicam uma parcela significativa da variação no desempenho dos participantes durante a tarefa de análise de código. O modelo de regressão permitirá identificar quais variáveis têm maior influência sobre o desempenho, oferecendo insights sobre os fatores que mais contribuem para o sucesso na tarefa.
+Uma análise de regressão não linear múltipla foi conduzida para investigar se as variáveis preditoras (uso de LLMs, ingestão de fitoterápicos, autoeficácia inicial e ansiedade estado inicial) explicam uma parcela significativa da variação no desempenho dos participantes durante a tarefa de análise de código. O modelo de regressão permite identificar quais variáveis têm maior influência sobre o desempenho, oferecendo insights sobre os fatores que mais contribuem para o sucesso na tarefa.
 
-A equação do modelo de regressão não linear múltipla será:
+A equação do modelo de regressão não linear múltipla foi:
 
 Y = β₀ + β₁X₁ + β₂X₂ + β₃X₃ + β₄X₄ + β₅X₁X₂ + β₆X₁X₃ + β₇X₁X₄ + β₈X₂X₃ + β₉X₂X₄ + β₁₀X₃X₄ + ε
 
@@ -270,7 +270,7 @@ Onde:
 - **β₁ a β₁₀:** Coeficientes de regressão (indicam a magnitude e a direção do efeito de cada variável preditora sobre o desempenho).
 - **ε:** Erro residual (parcela da variação no desempenho que não é explicada pelas variáveis preditoras).
 
-A análise de regressão permitirá determinar a contribuição relativa de cada variável preditora para o desempenho dos participantes, controlando o efeito das demais variáveis. Além disso, a análise permitirá identificar possíveis interações não lineares entre as variáveis preditoras, como efeitos quadráticos ou cúbicos.
+A análise de regressão permite determinar a contribuição relativa de cada variável preditora para o desempenho dos participantes, controlando o efeito das demais variáveis. Além disso, a análise permitiu identificar possíveis interações não lineares entre as variáveis preditoras, como efeitos quadráticos ou cúbicos.
 
 **Conexão com HoT-SEM:** A análise de regressão não linear múltipla pode ser vista como uma forma simplificada de modelagem HoT-SEM, onde as relações entre as variáveis são representadas por uma equação matemática em vez de um hipergrafo. No entanto, os resultados da análise de regressão podem ser usados para informar a construção do modelo HoT-SEM, sugerindo quais variáveis e interações devem ser incluídas no modelo. Por exemplo, se a análise de regressão indicar que a interação entre o uso de LLMs e a autoeficácia inicial é um preditor significativo do desempenho, essa interação pode ser representada no modelo HoT-SEM por meio de uma hiperaresta que conecta os nós correspondentes.
 
